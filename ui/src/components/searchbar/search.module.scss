@@ -1,0 +1,70 @@
+.searchbar{
+    background-color: #dadbf0;
+
+    .container{
+        padding: 4rem 20rem;
+        text-align: center;
+        .top{
+            
+            .content{
+                font-size: 50px;
+            }
+        }
+        .bottom{
+            .content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                .search{
+                    outline: none;
+                    width: 55%;
+                    height: 31px;
+                    color: #dadbf0;
+                    padding: 0px 20px;
+                    border:  2px solid black;
+                    border-right: none;
+                    &:hover{
+                        cursor:pointer;
+                    }
+                }
+                .enter{
+                    border-style: none;
+                    font-size: 24px;
+                    background-color: #ffffff;
+                    border:  2px solid black;
+                    border-left: none;
+                    &:hover{
+                        cursor: pointer;
+                        color: #dadbf0;
+                    }
+                }
+                
+            }
+            .response{
+                display: flex;
+                justify-content: center;
+                
+                .answers{
+                    list-style-type: none;
+                    .answer{
+                        width:94%;
+                        margin: 10px 0px;
+                        .answerbox{
+                            border: 2px solid black;
+                            background-color: #ffffff;
+                            border-radius: 16px;
+                            padding: 5px 15px;
+                            text-align: left;
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                            .title{
+                                font-size: larger;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

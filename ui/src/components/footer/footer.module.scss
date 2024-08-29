@@ -1,0 +1,54 @@
+.foot{
+    background-color: #2b3231;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    .container{
+        padding: 4rem 10%;
+        display: flex;
+        .row{
+            flex:18%;
+            color: #FFF;
+            .head{
+                font-size: large;
+                padding-bottom: 10px;
+            }
+            .list{
+                list-style-type: none;
+                
+            }
+        }
+        .row:nth-child(2){
+            flex:18%;
+        }
+        .row:nth-child(3){
+            flex:18%;
+        }
+        .row:nth-child(4){
+            flex:18%;
+            .block2{
+                padding-left: 40px;
+                .heading{
+                    font-size: medium;
+                }
+            }
+            
+        }
+        .row:nth-child(5){
+            flex:28%;
+            .about{
+                padding: 9rem 0 0 5rem;
+                .logo{
+                    height:3rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .foot{
+        .container{
+            display: block;
+        }
+    }
+}
